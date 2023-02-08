@@ -1,7 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Content, Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import About from '@/components/About/About'
+import Hero from '../components/Hero/Hero'
+import Blog from '../components/Blog/Blog'
+import Portfolio from '../components/Portfolio/Portfolio'
+import Team from '../components/Team/Team'
+import Testimonial from '@/components/Testimonial/Testimonial'
+import Contact from '../components/Contact/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +21,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Hero></Hero>
+      <About></About>
+      <Blog></Blog>
+      <Portfolio></Portfolio>
+      <Team></Team>
+      <Testimonial></Testimonial>
+      <Contact></Contact>
     </>
   )
 }
