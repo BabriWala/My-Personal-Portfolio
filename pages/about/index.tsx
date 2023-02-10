@@ -1,9 +1,10 @@
+import About from "@/components/About/About";
 
 
 const index = () => {
     return (
         <div>
-            <h2>This is About Page</h2>            
+            <About></About>          
         </div>
     );
 };
